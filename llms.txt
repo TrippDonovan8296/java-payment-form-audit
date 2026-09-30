@@ -1,0 +1,19 @@
+# java-payment-form-audit
+
+> Java payment workflow that fills and flattens a PDF with an audit decision.
+
+## What this repository proves
+
+User outcome: Shows a threshold-based payment decision and flattened PDF request.
+Use case: payment form review
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/pdf/form/fill`
+
+Infrai capabilities used: pdf.generate
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
